@@ -1,0 +1,24 @@
+<!--pages/diagnose/tableOfThree.wxml-->
+<view class="container">
+    <image class="picture_1" src="../images/timg.jpg"></image>
+    <view class="text_1">
+       <text space="nbsp" style="font-weight:bold">\n\r  请您选择最近一周内最接近您排尿状态的得分并打分：OABSS总评分就是这4个问题评分的综合。</text>
+    </view>
+    <image class="picture_2" src="../images/baizhi2.png"></image>
+    <!-- 问卷信息 -->
+    <view class='timu1'>
+       <import src="questionModelOfBig.wxml"/>
+       <template is="model" data="{{num:num1,obj:questionnaireArray[index]}}"/>
+    </view>
+    <view class="page">
+       <text space="nbsp">第{{page}}页 共{{total}}页</text>
+    </view>
+
+    <!-- 翻页 -->
+    <view class="footer-btn">
+       <button class="btn-p" bindtap="prevPage" style="width:250rpx" disabled="{{disabledp}}">上一页</button>
+       <button class="btn-t" bindtap="nextPage" style="width:250rpx" disabled="{{disabledt}}" wx:if="{{!isButton}}">下一页</button>
+       <button class="btn-t" bindtap="submit" style="width:250rpx" disabled="{{disabledt}}" wx:if="{{isButton}}">提交</button>
+    </view>
+</view>
+

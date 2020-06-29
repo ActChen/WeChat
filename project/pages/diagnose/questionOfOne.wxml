@@ -1,0 +1,21 @@
+<!--pages/diagnose/questionOfOne.wxml-->
+<view class="container">
+   <image class="picture_1" src="../images/test-bg.png"></image>
+   <view>
+     <text class="text_1">您是否有以上症状？</text>
+   </view>
+   <view class="text_2">
+     <text space="nbsp" style="font-weight:bold">\n\r        尿频、尿急、不能赶到厕所就排尿 \n\r</text>
+     <text space="nbsp" style="color:#357DF4;font-size:50rpx">         急迫性尿失禁</text>
+   </view>
+   <view class="text_3">
+     <text space="nbsp" style="font-weight:bold">\n\r  咳嗽、打喷嚏、负重等腹压增加时出现漏尿\n\r</text>
+     <text space="nbsp" style="color:#357DF4;font-size:50rpx">         压力性尿失禁</text>
+   </view>
+      <view class="text_4">
+     <text space="nbsp" style="font-weight:bold">\n\r  咳嗽、打喷嚏、负重等腹压增加时出现漏尿并伴有尿频、尿急、不能赶到厕所就排尿\n\r</text>
+     <text space="nbsp" style="color:#357DF4;font-size:50rpx">         混合性尿失禁</text>
+   </view>
+   <button class="bt_1" bindtap="bt_1" style="width:300rpx">是</button>
+   <button class="bt_2" bindtap="bt_2" style="width:300rpx">否</button>
+</view>

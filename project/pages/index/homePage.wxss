@@ -1,0 +1,49 @@
+/* pages/index/comming.wxss */
+.picture_1 {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+}
+
+.text_1 {
+  position: absolute;
+  left: 20rpx;
+  top: 80rpx;
+  font-size: 50rpx;
+  color: aliceblue;
+}
+
+.text_2 {
+  background: white;
+  position: absolute;
+  width: 500rpx;
+  top: 300rpx;
+  left: 120rpx;
+}
+
+.text_3 {
+  color:rgba(0, 0, 255, 0.774);
+}
+
+.picture {
+  height: 500rpx;
+  width: 100%;
+  position: absolute;
+  top: 550rpx;
+}
+
+.bt_1 {
+  position: absolute;
+  top: 1200rpx;
+  left: 50rpx;
+  background:blue;
+  color: white;
+}
+.bt_2 {
+  position: absolute;
+  top: 1200rpx;
+  left:400rpx;
+  background: cadetblue;
+  color:white;
+}

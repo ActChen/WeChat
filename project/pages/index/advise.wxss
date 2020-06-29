@@ -1,0 +1,113 @@
+/* pages/index/advise.wxss */
+.picture_1 {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+}
+
+.picture_2 {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 18%;
+}
+
+.text_1 {
+  position: absolute;
+  left: 20rpx;
+  top: 60rpx;
+  font-size: 50rpx;
+  color: white;
+}
+
+.text_2 {
+  width: 95%;
+  height: 700rpx;
+  border-radius: 5px solid rgba(51, 50, 48, 0.13);
+  background: white;
+  position: absolute;
+  top: 29%;
+  left: 2.5%;
+}
+
+.tubiao {
+  width: 60rpx;
+  height: 60rpx;
+  position: absolute;
+  top: 21%;
+}
+
+.head {
+  position: absolute;
+  top: 21%;
+  left: 10%;
+  font-size: 40rpx;
+  color: black;
+}
+
+.line {
+  position: absolute;
+  background: #E0E3DA;
+  width: 95%;
+  left: 2.5%;
+  height: 5rpx;
+  top: 27%;
+}
+
+.tubiao2 {
+  width: 60rpx;
+  height: 60rpx;
+  position: absolute;
+  top: 52%;
+}
+
+.head2 {
+  position: absolute;
+  top: 52%;
+  left: 10%;
+  font-size: 40rpx;
+  color: black;
+}
+
+.line2 {
+  position: absolute;
+  background: #E0E3DA;
+  width: 95%;
+  left: 2.5%;
+  height: 5rpx;
+  top: 58%;
+}
+
+.view3 {
+  position: absolute;
+  top: 60%;
+}
+
+.bt {
+  background-color: white;
+  text-align: left;
+}
+
+.video {
+  position: fixed;
+  width: 100%;
+  align-content: center;
+}
+
+.erweima {
+  position: absolute;
+  width: 30%;
+  height: 15%;
+  bottom: 5%;
+  left: 35%;
+}
+
+.text3 {
+  position: absolute;
+  left: 23%;
+  bottom: 2.5%;
+  font-size: 25rpx;
+}
+
+

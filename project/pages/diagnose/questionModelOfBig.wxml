@@ -1,0 +1,15 @@
+<!--pages/diagnose/questionModelOfBig.wxml-->
+<!-- 大的问卷模板 -->
+<template name="model">
+   <view class="timu">
+     <text style="font-weight:bold">{{num}}、{{obj.content.des}}</text>
+     <view class="line" style=""></view>
+      <view class="ask-area">
+        <radio-group class="radio-group"  bindchange='radioChange' id="{{num}}">
+          <radio class="radio" wx:for-items="{{obj.content.options}}" wx:key="name" value="{{item.gread}}" checked="{{item.isSelected}}">
+            <text>{{item.name}}</text>
+          </radio>
+        </radio-group>
+      </view>
+   </view>
+</template>

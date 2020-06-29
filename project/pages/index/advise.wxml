@@ -1,0 +1,26 @@
+<!--pages/index/advise.wxml-->
+<view>
+  <image class="picture_1" src="../images/test-bg.png"></image>
+  <view class="text_1">
+     <text>为了您的个人健康\r\n</text>
+     <text space="nbsp"> 请认真查看诊断建议!</text>
+  </view>
+  <image class="picture_2" bindtap="click" src="../images/baizhi.png"></image>
+  <image class="tubiao" src="../images/yitu.jpg"/>
+  <text class="head">诊断建议</text>
+  <view class="line" style=""></view>
+  <view class="text_2">
+     <text class="text2_1" space="nbsp" hidden="{{text}}">  {{json.text}} \n\n</text>
+  </view>
+  <image class="tubiao2" src="../images/lianjie.jpg"></image>
+  <text class="head2">相关链接</text>
+  <view class="line2" style=""></view>
+  <view class="view3">
+     <button class="bt" hidden="{{pendiji}}" bindtap="pendijiClick">盆底肌锻炼视频</button>
+     <button class="bt" hidden="{{pangguangji}}" bindtap="pangguangjiClick">膀胱功能训练视频</button>
+     <button class="bt" hidden="{{shenghuo}}" bindtap="shenghuoClick">生活调摄</button>
+  </view>
+   <video class="video" hidden="{{video}}"  src="{{videoSrc}}"  custom-cache="false" controls object-fit="contain"/>
+   <image class="erweima" src="../images/erweima.png" data-src="https://gquestionbank.oss-cn-beijing.aliyuncs.com/erweima.png" bindtap="previewImage"></image>
+   <text class="text3">扫描二维码关注盆底将康，普及科普知识！</text>
+</view>

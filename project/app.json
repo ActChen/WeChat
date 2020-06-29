@@ -1,0 +1,25 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/index/homePage",
+    "pages/diagnose/questionOfOne",
+    "pages/diagnose/tableOfOne",
+    "pages/diagnose/questionModel",
+    "pages/diagnose/tableOfTwo",
+    "pages/diagnose/tableOfThree",
+    "pages/diagnose/questionModelOfBig",
+    "pages/diagnose/tableOfThreeAndFour",
+    "pages/diagnose/tableOfFour",
+    "pages/index/viewTestData",
+    "pages/index/tanchuang",
+    "pages/index/advise"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "尿失禁评测",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

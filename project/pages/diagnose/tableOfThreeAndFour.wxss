@@ -1,0 +1,61 @@
+/* pages/diagnose/tableOfThreeAndFour.wxss */
+@import "../diagnose/questionModelOfBig.wxss";
+
+.picture_1 {
+  position: fixed;
+  width: 100%;
+  height: 20%;
+  top: 0px;
+}
+
+.text_1 {
+  position: fixed;
+  width: 500rpx;
+  top: 45rpx;
+  left: 100rpx;
+}
+
+.picture_2 {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 20%;
+}
+
+.body {
+  position: fixed;
+  top: 20%;
+}
+
+.desc {
+  display: flex;
+  flex-direction: row;
+}
+
+.timu1 {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 25%;
+}
+
+.btn-p {
+  position: fixed;
+  top: 90%;
+  left: 10%;
+  background:blue;
+  color:white;
+}
+.btn-t {
+  position: fixed;
+  top: 90%;
+  right:10%;
+  background: cadetblue;
+  color:white;
+}
+
+.page {
+  position: fixed;
+  left: 5%;
+  top: 79%;
+}

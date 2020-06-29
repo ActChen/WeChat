@@ -1,0 +1,22 @@
+<!--pages/index/homePage.wxml-->
+<view class="container">
+  <!-- 设置全局背景图片 -->
+  <image class="picture_1" src="../images/m_bg1.png"></image>
+  <view class="text_1">
+     <text>未病先防，既病防变\r\n</text>
+     <text space="nbsp">     你我因健康而喜悦。</text>
+  </view>
+  <view class="text_2">
+     <text space="nbsp">   我国人口基数庞大，人口老龄化趋势不可逆转。尿失禁作为老年人群严重的疾病之一，其发病率高，就诊率低，极大地影响患者日常生活。\r\n</text>
+     <text class="text_3" space="nbsp">   早期识别其发病危险因素，实现未病先防，既病防渐，提高尿失禁防控率。</text>
+  </view>
+  <image class="picture" src="../images/3genvyisheng.png"></image>
+  <button class="bt_1" style="width:300rpx" bindtap="bt_1">开始评测</button>
+  <button class="bt_2" style="width:300rpx" bindtap="bt_2">查看评测记录</button>
+
+  <!--弹窗输入姓名和电话-->
+  <modal hidden="{{hiddenmodalput}}" title="为了你的健康，首次测评前请填写真实姓名和电话便于记录保存回访" confirm-text="提交" cancel-text="取消" bindcancel="cancel" bindconfirm="confirm">  
+     <input type='text'placeholder="请输入姓名" bindinput="getName" />  
+     <input placeholder="请输入电话" maxlength="11" type="tel" bindinput="getPhone" />  
+  </modal>  
+</view>

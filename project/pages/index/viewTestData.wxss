@@ -1,0 +1,72 @@
+/* pages/index/viewTestData.wxss */
+.table {
+  border: 0px solid darkgray;
+ }
+ .tr {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  height: 3rem;
+  align-items: center;
+ }
+
+ .td1 {
+  width:50%;
+  justify-content: center;
+  text-align: center;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+ }
+
+ .td {
+  width:25%;
+  justify-content: center;
+  text-align: center;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+ }
+ .bg-w{
+  background: snow;
+ }
+ .bg-g{
+  background: #E6F3F9;
+ }
+ .th {
+  width: 50%;
+  justify-content: center;
+  text-align: center;
+  background: rgb(145, 169, 243);
+  color: #fff;
+  display: flex;
+  height: 3rem;
+  align-items: center;
+ }
+ .th1 {
+  width: 25%;
+  justify-content: center;
+  text-align: center;
+  background: rgb(145, 169, 243);
+  color: #fff;
+  display: flex;
+  height: 3rem;
+  align-items: center;
+ }
+
+ .th2 {
+  width: 25%;
+  justify-content: center;
+  text-align: center;
+  background: rgb(145, 169, 243);
+  color: #fff;
+  display: flex;
+  height: 3rem;
+  align-items: center;
+ }
+
+ .video {
+   position: fixed;
+   width: 100%;
+   align-content: center;
+ }

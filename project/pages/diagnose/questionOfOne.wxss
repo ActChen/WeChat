@@ -1,0 +1,61 @@
+/* pages/diagnose/questionOfOne.wxss */
+.picture_1 {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+}
+
+.text_1 {
+  position: absolute;
+  left: 120rpx;
+  top: 100rpx;
+  font-size: 50rpx;
+  color: aliceblue;
+}
+
+.text_2 {
+  width: 580rpx;
+  height: 250rpx;
+  border: 5rpx solid rgba(51, 50, 48, 0.13);
+  background: white;
+  position: absolute;
+  top: 350rpx;
+  left: 80rpx;
+}
+
+.text_3 {
+  width: 580rpx;
+  height: 250rpx;
+  border: 5rpx solid rgba(51, 50, 48, 0.13);
+  background: white;
+  position: absolute;
+  top: 650rpx;
+  left: 80rpx;
+}
+
+.text_4 {
+  width: 580rpx;
+  height: 250rpx;
+  border: 5rpx solid rgba(51, 50, 48, 0.13);
+  background: white;
+  position: absolute;
+  top: 950rpx;
+  left: 80rpx;
+}
+
+.bt_1 {
+  position: absolute;
+  top: 1250rpx;
+  left: 50rpx;
+  background:rgb(66, 66, 224);
+  color: white;
+}
+
+.bt_2 {
+  position: absolute;
+  top: 1250rpx;
+  left:400rpx;
+  background: rgb(103, 173, 103);
+  color:white;
+}

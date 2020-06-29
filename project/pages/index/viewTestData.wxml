@@ -1,0 +1,20 @@
+<!--pages/index/viewTestData.wxml-->
+<view class="table">
+   <view class="tr bg-w">
+     <view class="th">评测日期</view>
+     <view class="th1">评测结论</view>
+     <view class="th2">诊断建议</view>
+   </view>
+   <block wx:for="{{listData}}" wx:key="{[code]}">
+       <view class="tr bg-g" wx:if="{{index % 2 == 0}}">
+         <view class="td1"><text space="nbsp">{{item.time}} </text></view>
+         <view class="td" bindtap="click" data-text="{{item.conclusion}}"><text space="nbsp">{{item.conclusion}} </text></view>
+         <view class="td" bindtap="clickAdvise" data-text="{{item.advise}}"><text style="color:#0000FF">查看</text></view>
+       </view>
+       <view class="tr" wx:else>
+         <view class="td1"><text space="nbsp">{{item.time}} </text></view>
+         <view class="td" bindtap="click" data-text="{{item.conclusion}}"><text space="nbsp">{{item.conclusion}} </text></view>
+         <view class="td" bindtap="clickAdvise" data-text="{{item.advise}}"><text style="color:#0000FF">查看</text></view>
+       </view>
+   </block> 
+</view>

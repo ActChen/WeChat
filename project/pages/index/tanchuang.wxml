@@ -1,0 +1,25 @@
+<!--pages/index/tanchuang.wxml-->
+<view class='toast-box'>
+        <view class='toastbg'></view>
+        <view class='showToast'>
+            <view class='toast-title'>
+                <text>请填写姓名电话，便于诊断记录保存</text>
+            </view>
+            <view class='toast-main'>
+                <view class='toast-input—name'>
+                    <input type='password' placeholder='输入姓名' bindinput='setValue' data-name='stuEidtName'></input>
+                </view>
+                <view class='toast-input-phone'>
+                    <input type='password' placeholder='输入电话' bindinput='setValue' data-name='stuEidtName'></input>
+                </view>
+            </view>
+            <view class='toast-button'>
+                <view class='button1'>
+                    <button catchtap='cancel'>取消</button>
+                </view>
+                <view class='button2'>
+                    <button data-url="../allOrder/allOrder" catchtap='confirmAcceptance'>确定</button>
+                </view>
+            </view>
+        </view>
+</view>
